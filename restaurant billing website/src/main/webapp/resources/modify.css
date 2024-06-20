@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.bg {
+    background: url('table.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+#navbar {
+    background-color: #0f2862;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.header {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+.register {
+    color: #00ddff;
+}
+
+
+#drop_zone {
+    width: 100%;
+    min-height: 200px;
+    border: 2px dashed #0f2862;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: border-color 0.3s ease;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+}
+
+#drop_zone.hover {
+    border-color: #0049b7;
+}
+
+#drop_zone p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#preview {
+    margin-top: 20px;
+}
+
+#preview img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
