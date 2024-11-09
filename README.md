@@ -103,6 +103,5 @@ CREATE TABLE foodOrder (
 - Order History: Allow users to view their past orders.
 - Payment Integration: Integrate payment gateways for online payments.
 - Enhanced Security: Implement password hashing and other security measures.
-- Responsive Design: Improve the UI for better responsiveness on mobile devices.
-## Contributing
+## Contributins
 Contributions are welcome! Please fork the repository and submit a pull request for review.
